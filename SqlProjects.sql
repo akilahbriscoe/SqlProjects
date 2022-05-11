@@ -1,4 +1,4 @@
---data of the most polluted cities
+--data of the most polluted cities from https://www.kaggle.com/datasets/ramjasmaurya/most-polluted-cities-and-countries-iqair-index?resource=download
 
 --Add a column to show air quality ratings description for 2021
 SELECT city, data2021, CASE WHEN data2021 <=50 THEN 'Good' WHEN data2021 <=100 THEN 'Moderate' 
